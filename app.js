@@ -1,5 +1,5 @@
 const rps = ['rock', 'paper', 'scissors'];
-let playerSelection = prompt('What do you choose?', ''.toLowerCase());
+let playerSelection = prompt('What do you choose?').toLowerCase();
 let computerSelection = computerPlay();
 
 
