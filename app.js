@@ -31,9 +31,28 @@ function playRound (playerSelection, computerSelection) {
 
 }
 
-
-
 console.log(playRound(playerSelection, computerSelection));
+
+
+
+// Create a function called game that loops the game 5 times and keeps score
+
+function game(){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
