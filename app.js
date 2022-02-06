@@ -1,3 +1,5 @@
+//Variables used in the functions
+
 const rps = ['rock', 'paper', 'scissors'];
 let playerSelection = prompt('What do you choose?').toLowerCase();
 let computerSelection = computerPlay();
@@ -11,6 +13,7 @@ let draw = 'Draw!';
 
 
 // Computer randomly picks rock, paper, scissors
+
 function computerPlay() {
     const randomPlay = Math.floor(Math.random() * rps.length);
     const choice = rps[randomPlay];
@@ -19,6 +22,7 @@ function computerPlay() {
 }
 
 // Play a round of rock, paper or scissors
+
 function playRound (playerSelection, computerSelection) {
     
     if (playerSelection === computerSelection) {
@@ -85,45 +89,13 @@ for (let i = 0; i < 5; i++) {
 
 
 
+// A function I used to get in to the right mindset:
 
+    // function hi(c, b) {
+    //     c = ('hello ');
+    //     b = ('world!');
 
-
-
-
-
-
-
-
-
-
-
-
-// Use (''.toLowerCase()) to make the playerSelection case incensitive
-
-
-// (r === s || p === r || s === p) 
-
-
-// const rock > scissors ; 
-// const paper > rock ;
-// const scissors > paper ;
-
-// const r = 'rock';
-// const s = 'scissors';
-// const p = 'paper';
-
-
-
-
-
-
-
-
-// function hi(c, b) {
-//     c = ('hello ');
-//     b = ('world!');
-
-//     return (c+b);
-// }
+    //     return (c+b);
+    // }
 
 
